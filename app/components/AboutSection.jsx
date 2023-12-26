@@ -62,10 +62,10 @@ function AboutSection() {
   };
 
   return (
-    <section className="text-white lg:mt-40 md:mt-20 sm:mt-14">
+    <section className="text-white lg:mt-40 md:mt-20 sm:mt-14" id="#about">
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
         <Image
-          src="/images/about_page.png"
+          src="/images/About_page.png"
           width={500}
           height={500}
           alt="About me"

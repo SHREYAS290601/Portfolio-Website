@@ -52,7 +52,7 @@ const projectsData = [
     id: 6,
     title: "Movie Recommendation System",
     description: "A Movie Recommendation System based on Vector Similarity",
-    image: "/projects/Movie.png",
+    image: "/projects/Movie.PNG",
     tag: ["All", "Analysis"],
     githubLink: "https://github.com/SHREYAS290601/Movie-Recommendation",
   },
@@ -70,7 +70,10 @@ function ProjectSection() {
   };
   return (
     <>
-      <h2 className="text-center text-4xl font-bold text-white mt-16 mb-8 md:mb-12">
+      <h2
+        className="text-center text-4xl font-bold text-white mt-16 mb-8 md:mb-12"
+        id="#projects"
+      >
         My Projects
       </h2>
       <div className="flex flex-row justify-center items-center gap-2 text-white my-6">
